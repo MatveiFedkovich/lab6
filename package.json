@@ -5,7 +5,7 @@
   "scripts": {
     "test": "jest",
     "start": "node api/index.js",
-    "postinstall": "prisma generate && npm run test"
+    "postinstall": "prisma generate && jest"
   },
   "keywords": [],
   "author": "",
