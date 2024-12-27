@@ -23,7 +23,7 @@ describe("Auth API", () => {
       .send({ username: "testuser", password: "password123" });
 
     expect(response.status).toBe(200);
-    expect(response.body).toHaveProperty("accessToken");
+    expect(response.body).toHaveProperty("accessToken12");
     expect(response.body).toHaveProperty("refreshToken");
   });
 });
